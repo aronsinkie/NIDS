@@ -2,6 +2,7 @@
 The code I provided are a Flask application written in Python and ኣ
 It includes route handlers, form handling, and rendering HTML templates using Jinja template engine. 
 https://github.com/aronsinkie/NIDS/assets/74707268/6c1f075b-bcc9-4857-9a82-46b2bdc0c855
+https://github.com/aronsinkie/NIDS/issues/1#issue-1991412530
 ![image](https://github.com/aronsinkie/NIDS/assets/74707268/a2d95da8-bfba-4b58-93be-4b1fc3297ce5)
 <iframe src="https://drive.google.com/file/d/1lhtVjxa3Y3BxarXah7A9uOlZ5akAawUr/preview" width="640" height="480" allow="autoplay"></iframe>
 https://drive.google.com/file/d/1lhtVjxa3Y3BxarXah7A9uOlZ5akAawUr
