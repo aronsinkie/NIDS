@@ -5,7 +5,7 @@ This study aims to develop a Guragee spell checker that takes into account the c
 Certainly! Here's a summary of the provided code in bullet points:
 
 - The code is a Flask application written in Python.
-2 It utilizes a SQL database.
+- It utilizes a SQL database.
 The application includes route handlers to handle different URL endpoints and execute corresponding functions.
 Form handling is implemented to process user input from HTML forms.
 The Jinja template engine is used to render dynamic HTML templates by filling in data placeholders with Python code.
