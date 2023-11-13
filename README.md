@@ -4,7 +4,7 @@ The code I provided are a Flask application written in Python and sql database w
 This study aims to develop a Guragee spell checker that takes into account the complex morphology of the Gurage language. Previous attempts using approaches like metaphone and edit distance algorithms, designed for simpler languages like English, did not yield satisfactory results for Gurage. Similarly, existing morphological analyzers were not suitable for computational morphology in Gurage. Therefore, this study explores the possibility of using a morphology-based approach to design and develop a Guragee typing error detection and correction system specifically targeting non-word errors.
 Certainly! Here's a summary of the provided code in bullet points:
 
-1 The code is a Flask application written in Python.
+- The code is a Flask application written in Python.
 2 It utilizes a SQL database.
 The application includes route handlers to handle different URL endpoints and execute corresponding functions.
 Form handling is implemented to process user input from HTML forms.
