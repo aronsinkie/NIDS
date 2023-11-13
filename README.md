@@ -17,7 +17,7 @@ Therefore, this study explores the possibility of using a morphology-based appro
 
 https://github.com/aronsinkie/NIDS/assets/74707268/978393a1-abca-4b71-873b-2c1fc88c8ecd
 
-
+## Detailed Architecture of The System
 <p align="center">
   <img src="https://github.com/aronsinkie/NIDS/assets/74707268/3ebd9e6c-f5c5-481a-add2-8cf741b72aec" width="400">
 </p>
