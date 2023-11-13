@@ -1,7 +1,2 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 13 03:23:49 2023
-
-@author: CIAD
-"""
+![mnge diagram](https://github.com/aronsinkie/NIDS/assets/74707268/3ebd9e6c-f5c5-481a-add2-8cf741b72aec)
 
