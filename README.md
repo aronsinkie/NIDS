@@ -1,4 +1,4 @@
-                                                        **Spelling Error Detection and Correction System**
+                                                        ** Spelling Error Detection and Correction System **
        
                                              The code I provided are a Flask application written in Python and ኣ
                       It includes route handlers, form handling, and rendering HTML templates using Jinja template engine. 
