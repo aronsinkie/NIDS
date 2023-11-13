@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guragee Word Validation</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <h1>Guragee Word Validation</h1>
+  <form action="/" method="post">
+    <label for="amharic_paragraph">Enter a Guragee paragraph:</label><br>
+    <textarea id="amharic_paragraph" name="amharic_paragraph" rows="4" cols="50" required></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+  
+  {% if error_message %}
+    <h1 class="error">{{ error_message }}</h1>
+  {% endif %}
+
+  {% if valid_paragraph %}
+    <h1 class="success">Valid Guragee paragraph:</h1>
+    <ul>
+      {% for paragraph in valid_paragraph %}
+        <li>{{ paragraph }}</li>
+      {% endfor %}
+    </ul>
+    <h1 class="results">Results:</h2>
+    <ul>
+      {% for result in results %}
+        <li>{{ result }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+{% if output_messages %}
+  <div class="output-messages">
+    <h3>Output Messages:</h3>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+          {% for message in output_messages %}
+         {% if message is mapping %} 
+         {% for key, value in message.items() %}
+                <th>{{ key }}</th>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+         <tr>
+         {% for message in output_messages %}
+        {% if message is mapping %} 
+        {% for key, value in message.items() %}
+               <td>{{ value }}</td>
+           {% endfor %}
+        </tr>
+          {% endif %}
+          {% endfor %}
+         
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endif %}
+</body>
+</html>
