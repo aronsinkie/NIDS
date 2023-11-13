@@ -1,5 +1,4 @@
 # Spelling Error Detection and Correction System 
-The code I provided are a Flask application written in Python and sql database writen in python It also includes route handlers, form handling, and rendering HTML templates using Jinja template engine. 
 
 This study aims to develop a Guragee spell checker that takes into account the complex morphology of the Gurage language. Previous attempts using approaches like metaphone and edit distance algorithms, designed for simpler languages like English, did not yield satisfactory results for Gurage. Similarly, existing morphological analyzers were not suitable for computational morphology in Gurage. Therefore, this study explores the possibility of using a morphology-based approach to design and develop a Guragee typing error detection and correction system specifically targeting non-word errors.
 
